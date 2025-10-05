@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "vulkanlight",
+  "version": "${version}",
+  "name": "VulkanLight",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vulkanlight/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.august.vulkanlight.client.VulkanlightDataGenerator"
+    ],
+    "client": [
+      "org.august.vulkanlight.client.VulkanlightClient"
+    ],
+    "main": [
+      "org.august.vulkanlight.Vulkanlight"
+    ]
+  },
+  "mixins": [
+    "vulkanlight.mixins.json",
+    {
+      "config": "vulkanlight.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "fabric-api": "*",
+    "minecraft": ">=1.20.1"
+  }
+}

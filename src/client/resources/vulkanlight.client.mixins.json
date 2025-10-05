@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.august.vulkanlight.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "WorldRendererMixin",
+    "ChunkRendererRegionMixin",
+    "EntityRenderDispatcherMixin",
+    "BlockRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
