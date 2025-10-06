@@ -7,7 +7,7 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/vulkanlight/icon.png",
+  "icon": "/assets/VulkanLight.png",
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [
