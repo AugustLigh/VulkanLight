@@ -1,9 +1,9 @@
 <div align="center">
   <img src="./src/main/resources/assets/VulkanLight.png" width="200" height="200" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(255, 100, 0, 0.3);"/>
 
-# VulkanLight 🔥
+# 🌋 VulkanLight 🔦
 
-**Dynamic lighting that actually works with VulkanMod.**
+**Dynamic lighting that actually works with VulkanMod. 🔥**
 </div>
 
 Hold a torch, get light around you. But here's the thing: this mod uses **Vulkan rendering** for dynamic lighting, making it the first (and currently only) dynamic lighting solution built specifically for VulkanMod.
